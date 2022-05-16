@@ -1,0 +1,74 @@
+[0.079s] Invoking command in '/home/ckwolfe/turtlebot3_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ckwolfe/Github/roar-indy-ws/install/roar_waypoint:/home/ckwolfe/Github/roar-indy-ws/install/roar_ground_plane_detector:/home/ckwolfe/Github/roar-indy-ws/install/roar_carla_ros2:/home/ckwolfe/Github/roar-indy-ws/install/deep_sort_ros2:/home/ckwolfe/Github/roar-indy-ws/install/cone_detector_ros2:/opt/ros/foxy /usr/bin/cmake /home/ckwolfe/turtlebot3_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ckwolfe/turtlebot3_ws/install/hls_lfcd_lds_driver
+[0.410s] -- The C compiler identification is GNU 9.4.0
+[0.410s] -- The CXX compiler identification is GNU 9.4.0
+[0.410s] -- Check for working C compiler: /usr/bin/cc
+[0.410s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.410s] -- Detecting C compiler ABI info
+[0.457s] -- Detecting C compiler ABI info - done
+[0.474s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.478s] -- Check for working CXX compiler: /usr/bin/c++
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.571s] -- Detecting CXX compiler ABI info
+[0.669s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Detecting CXX compile features
+[0.694s] -- Detecting CXX compile features - done
+[0.701s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.749s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.750s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.973s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.027s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.137s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.308s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.380s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.667s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.673s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.674s] -- Looking for pthread.h
+[1.763s] -- Looking for pthread.h - found
+[1.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.855s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.855s] -- Looking for pthread_create in pthreads
+[1.922s] -- Looking for pthread_create in pthreads - not found
+[1.923s] -- Looking for pthread_create in pthread
+[2.010s] -- Looking for pthread_create in pthread - found
+[2.011s] -- Found Threads: TRUE  
+[2.256s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.419s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[2.509s] -- Configuring done
+[2.522s] -- Generating done
+[2.522s] -- Build files have been written to: /home/ckwolfe/turtlebot3_ws/build/hls_lfcd_lds_driver
+[2.540s] Invoked command in '/home/ckwolfe/turtlebot3_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ckwolfe/Github/roar-indy-ws/install/roar_waypoint:/home/ckwolfe/Github/roar-indy-ws/install/roar_ground_plane_detector:/home/ckwolfe/Github/roar-indy-ws/install/roar_carla_ros2:/home/ckwolfe/Github/roar-indy-ws/install/deep_sort_ros2:/home/ckwolfe/Github/roar-indy-ws/install/cone_detector_ros2:/opt/ros/foxy /usr/bin/cmake /home/ckwolfe/turtlebot3_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ckwolfe/turtlebot3_ws/install/hls_lfcd_lds_driver
+[2.543s] Invoking command in '/home/ckwolfe/turtlebot3_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ckwolfe/Github/roar-indy-ws/install/roar_waypoint:/home/ckwolfe/Github/roar-indy-ws/install/roar_ground_plane_detector:/home/ckwolfe/Github/roar-indy-ws/install/roar_carla_ros2:/home/ckwolfe/Github/roar-indy-ws/install/deep_sort_ros2:/home/ckwolfe/Github/roar-indy-ws/install/cone_detector_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/ckwolfe/turtlebot3_ws/build/hls_lfcd_lds_driver -- -j16 -l16
+[2.592s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[2.682s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[5.872s] [01m[K/home/ckwolfe/turtlebot3_ws/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.872s] [01m[K/home/ckwolfe/turtlebot3_ws/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:148:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter<std::string>(const char [5])[m[K’
+[5.872s]   148 |   node->declare_parameter<std::string>("port"[01;31m[K)[m[K;
+[5.873s]       |                                              [01;31m[K^[m[K
+[5.873s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[5.873s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.873s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.873s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.873s]                  from [01m[K/home/ckwolfe/turtlebot3_ws/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:35[m[K:
+[5.873s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[5.873s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[5.874s]       | [01;36m[K^~~~[m[K
+[5.874s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[5.874s] [01m[K/home/ckwolfe/turtlebot3_ws/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:149:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter<std::string>(const char [9])[m[K’
+[5.874s]   149 |   node->declare_parameter<std::string>("frame_id"[01;31m[K)[m[K;
+[5.874s]       |                                                  [01;31m[K^[m[K
+[5.874s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[5.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.875s]                  from [01m[K/home/ckwolfe/turtlebot3_ws/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:35[m[K:
+[5.875s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[5.875s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[5.875s]       | [01;36m[K^~~~[m[K
+[5.875s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.147s] make[2]: *** [CMakeFiles/hlds_laser_publisher.dir/build.make:63: CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o] Error 1
+[7.147s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hlds_laser_publisher.dir/all] Error 2
+[7.147s] make: *** [Makefile:141: all] Error 2
+[7.150s] Invoked command in '/home/ckwolfe/turtlebot3_ws/build/hls_lfcd_lds_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ckwolfe/Github/roar-indy-ws/install/roar_waypoint:/home/ckwolfe/Github/roar-indy-ws/install/roar_ground_plane_detector:/home/ckwolfe/Github/roar-indy-ws/install/roar_carla_ros2:/home/ckwolfe/Github/roar-indy-ws/install/deep_sort_ros2:/home/ckwolfe/Github/roar-indy-ws/install/cone_detector_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/ckwolfe/turtlebot3_ws/build/hls_lfcd_lds_driver -- -j16 -l16
